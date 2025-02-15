@@ -17,7 +17,7 @@ let texture = useTexture('/red.jpg');
     // the below code is used to animate the model this will rotate the screen of the macbook to 180 degrees which make it look like that laptop is closed.
     meshes.screen.rotation.x = THREE.MathUtils.degToRad(180);
     meshes.matte.material.map = texture;
-    meshes.matte.material.emissive = new THREE.Color(0.5, 0, 0);
+    meshes.matte.material.emissive = new THREE.Color(20, 1, 1);
     meshes.matte.material.emissiveIntensity = 1;
     meshes.matte.material.metalness = 0;
     meshes.matte.material.roughness = 1;
