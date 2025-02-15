@@ -5,21 +5,23 @@
   src: url("/font1.woff2") format("woff2");
 }
 
-html, body, #root {
+html,
+body,
+#root {
   height: 100%;
   width: 100%;
-  background-color: #0e0e0e;
+  background-color: #c0c0c0;
   font-family: "font";
 }
 
 .masked {
-    position: relative;
-    background: url("https://i.pinimg.com/564x/d9/54/87/d95487ffab31b9722b12eaf0e5709494.jpg") no-repeat center center;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  position: relative;
+  background: url("https://i.pinimg.com/564x/d9/54/87/d95487ffab31b9722b12eaf0e5709494.jpg") no-repeat center center;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .masked::before {
@@ -29,7 +31,7 @@ html, body, #root {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url("https://i.pinimg.com/564x/d9/54/87/d95487ffab31b9722b12eaf0e5709494.jpg") no-repeat center center;
+  background: url("/red.jpg") no-repeat center center;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-size: cover;
@@ -46,7 +48,7 @@ html, body, #root {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url("https://i.pinimg.com/564x/d9/54/87/d95487ffab31b9722b12eaf0e5709494.jpg") no-repeat center center;
+  background: url("/red.jpg") no-repeat center center;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-size: cover;
@@ -54,4 +56,15 @@ html, body, #root {
   background-repeat: no-repeat;
   filter: blur(20px);
   opacity: 0.8;
+}
+
+.navbar {
+  font-family: "Nunito", sans-serif;
+  font-weight: 100;
+  opacity: 0.8;
+}
+
+.line{
+  border-bottom: 0.01px solid #363536;
+  padding-bottom: 15px;
 }
