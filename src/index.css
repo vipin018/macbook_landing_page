@@ -68,3 +68,108 @@ body,
   border-bottom: 0.01px solid #363536;
   padding-bottom: 15px;
 }
+
+.gallery {
+  position: relative;
+  background: url("https://images.unsplash.com/photo-1530669244764-0909211cd8e8?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") no-repeat center center;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.gallery::before {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("/red.jpg") no-repeat center center;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: blur(50px);
+  opacity: 0.8;
+}
+
+.masked::after {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("/red.jpg") no-repeat center center;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: blur(20px);
+  opacity: 0.8;
+}
+.more {
+  position: relative;
+  background: url("/red.jpg") no-repeat center center;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.more::before {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("/red.jpg") no-repeat center center;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: blur(50px);
+  opacity: 0.8;
+}
+
+.more::after {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("/red.jpg") no-repeat center center;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: blur(20px);
+  opacity: 0.8;
+}
+
+.footer h2{
+  background: url("https://images.unsplash.com/photo-1598722401442-9e51a6828da8?q=80&w=1987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") no-repeat center center;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: "system-ui";
+}
+
+.footer button:hover{
+  background-color: transparent;
+  box-shadow: 0 0 20px 1px #363536;
+  color: #000;
+}
