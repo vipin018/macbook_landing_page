@@ -78,6 +78,7 @@ const App = () => {
           </div>
         </div>
         <More />
+        <Gallery />
       </div>
     </>
   )
