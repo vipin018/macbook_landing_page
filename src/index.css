@@ -1,7 +1,13 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: "font";
+  src: url("/font1.woff2") format("woff2");
+}
+
 html, body, #root {
   height: 100%;
   width: 100%;
   background-color: #0e0e0e;
+  font-family: "font";
 }
