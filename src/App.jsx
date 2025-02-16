@@ -65,9 +65,12 @@ const App = () => {
         </div>
         <Canvas camera={{ fov: 20, position: [0, -1, 100] }}>
           {/* <OrbitControls /> */}
-          {/* <Environment
+          <Environment 
+            background={false}
+            environmentIntensity={0.8}
+            environmentRotation={[0, 0, 2]}
             files="https://dl.polyhaven.org/file/ph-assets/HDRIs/exr/1k/studio_small_09_1k.exr"
-          /> */}
+          />
           <ScrollControls pages={3}>
             <Macbook />
           </ScrollControls>
