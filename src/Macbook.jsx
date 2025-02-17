@@ -30,7 +30,7 @@ let texture = useTexture('/red.jpg');
 
     return (
         <>
-            <group position={[0, -12, 0]}>
+            <group position={[0, -14, 0]}>
                 <primitive object={model.scene} />
             </group>
         </>
