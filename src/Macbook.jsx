@@ -4,8 +4,8 @@ import * as THREE from 'three';
 import { useFrame } from '@react-three/fiber';
 
 const Macbook = () => {
+// let texture = useTexture('/red.jpg');
 let texture = useTexture('/red.jpg');
-
 
     let model = useGLTF('/mac.glb');
     //   the below code is used to get all the meshes in the model and group them by name like in this case the name of the mesh is "Screen" and "Body" and then we can use them to animate the model
@@ -17,7 +17,7 @@ let texture = useTexture('/red.jpg');
     // the below code is used to animate the model this will rotate the screen of the macbook to 180 degrees which make it look like that laptop is closed.
     meshes.screen.rotation.x = THREE.MathUtils.degToRad(180);
     meshes.matte.material.map = texture;
-    meshes.matte.material.emissive = new THREE.Color(20, 1, 1);
+    meshes.matte.material.emissive = new THREE.Color(0.7, 0,0 );
     meshes.matte.material.emissiveIntensity = 1;
     meshes.matte.material.metalness = 0;
     meshes.matte.material.roughness = 1;
