@@ -89,7 +89,7 @@ const App = () => {
         <Video />
         {/* <More /> */}
         <Gallery />
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </>
   )
