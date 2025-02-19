@@ -7,7 +7,7 @@ import { Environment } from '@react-three/drei'
 import More from './More'
 import Gallery from './Gallery'
 import Footer from './Footer'
-import Video from './Video'
+// import Video from './Video'
 const App = () => {
   return (
     <>
@@ -86,7 +86,7 @@ const App = () => {
             <div className='w-20 h-20 bg-black rounded-lg overflow-hidden hover:scale-120 transition-all duration-500'> <img className='w-full h-full object-cover object-center' src="https://images.unsplash.com/photo-1523688939046-b05f7d854f84?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" /> </div>
           </div>
         </div>
-        <Video />
+        {/* <Video /> */}
         <More />
         <Gallery />
         <Footer />
