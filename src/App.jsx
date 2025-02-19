@@ -65,13 +65,13 @@ const App = () => {
           <p className='text-md opacity-50 w-2/3 text-center'>MacBook Pro M4: Because you deserve better than a Start Menu that never actually starts.</p>
         </div>
         <Canvas camera={{ fov: 20, position: [0, -1, 100] }}>
-          <OrbitControls 
+          {/* <OrbitControls 
             enableZoom={false}
             enablePan={false}
             enableRotate={true}
             
             
-          />
+          /> */}
           <Environment 
             files="https://dl.polyhaven.org/file/ph-assets/HDRIs/exr/1k/studio_small_09_1k.exr"
           />
